@@ -18,6 +18,7 @@ export default function Navbar() {
 
     sections.forEach((section) => {
       const el = document.getElementById(section.id);
+      console.log(el, "el");
       if (!el) return;
 
       const observer = new IntersectionObserver(
@@ -26,10 +27,9 @@ export default function Navbar() {
             setActive(section.id);
           }
         },
-        { rootMargin: "-50% 0px -50% 0px", threshold: 0 }
+        { rootMargin: "-10% 0px -10% 0px", threshold: 0 }
       );
       console.log(observer, "observer");
-      console.log(el, "el");
       observer.observe(el);
       observers.push(observer);
     });
@@ -47,7 +47,7 @@ export default function Navbar() {
         top: { xs: 0, lg: 0 },
         left: 0,
         zIndex: 50,
-        display: "flex",
+        display: { xs: "none", sm: "flex", lg: "flex" },
         flexDirection: { xs: "row", lg: "column" },
         justifyContent: { xs: "center", lg: "flex-start" },
         alignItems: { xs: "center", lg: "flex-start" },
@@ -67,7 +67,7 @@ export default function Navbar() {
               position: "relative",
               fontSize: 14,
               fontWeight: 500,
-              color: active === s.id ? "rgb(94 234 212)" : "text.secondary",
+              color: "text.secondary",
               cursor: "pointer",
               transition: "color 0.3s ease",
               "&::after": {
@@ -75,7 +75,7 @@ export default function Navbar() {
                 position: "absolute",
                 bottom: -4,
                 left: 0,
-                width: active === s.id ? "100%" : 0,
+                // width: active === s.id ? "100%" : 0,
                 height: "2px",
                 bgcolor: "rgb(94 234 212)",
                 transition: "width 0.3s ease",
