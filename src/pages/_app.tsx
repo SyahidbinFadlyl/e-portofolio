@@ -10,6 +10,9 @@ const theme = createTheme({
     secondary: {
       main: "#ff4081",
     },
+    background: {
+      default: "rgba(15, 23, 42, 1)",
+    },
   },
   typography: {
     fontFamily: "Inter",
