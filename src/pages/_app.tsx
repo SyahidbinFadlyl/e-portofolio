@@ -11,6 +11,9 @@ const theme = createTheme({
       main: "#ff4081",
     },
   },
+  typography: {
+    fontFamily: "Inter",
+  },
 });
 
 export default function App({ Component, pageProps }: AppProps) {
