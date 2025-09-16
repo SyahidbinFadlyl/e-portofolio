@@ -21,6 +21,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
       sx={{
         display: "flex",
         flexDirection: { xs: "column", sm: "row" },
+        gap: "1rem",
       }}
     >
       <Box flex={{ sm: 1 }}>
@@ -36,7 +37,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
         </Typography>
       </Box>
 
-      <Box flex={{ sm: 2 }}>
+      <Box flex={{ sm: 3 }}>
         {/* Posisi & Perusahaan */}
         <Typography sx={{ fontWeight: 700 }}>
           {experience.title},{"  "}
