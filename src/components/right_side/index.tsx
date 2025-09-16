@@ -48,7 +48,7 @@ export default function LeftSide() {
         <Stack direction="row" spacing={0}>
           <IconButton
             component="a"
-            href=""
+            href="https://github.com/SyahidbinFadlyl"
             target="_blank"
             rel="noopener"
             color="inherit"
@@ -57,7 +57,7 @@ export default function LeftSide() {
           </IconButton>
           <IconButton
             component="a"
-            href=""
+            href="https://www.linkedin.com/in/muhammad-syahid-b8748724b/"
             target="_blank"
             rel="noopener"
             color="inherit"
