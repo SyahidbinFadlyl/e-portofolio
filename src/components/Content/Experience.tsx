@@ -20,11 +20,13 @@ export default function Experience() {
         rel="noopener"
         color="inherit"
         sx={{
+          borderRadius: "0.5rem",
           fontSize: "1rem",
           fontWeight: 700,
           "&:hover": {
             color: "rgba(94, 234, 212, 1) !important",
           },
+          p: "1rem",
         }}
       >
         View Full Resume
