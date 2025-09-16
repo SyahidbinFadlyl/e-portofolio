@@ -21,6 +21,15 @@ const theme = createTheme({
   typography: {
     fontFamily: "Inter",
   },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        html: {
+          scrollBehavior: "smooth",
+        },
+      },
+    },
+  },
 });
 
 export default function App({ Component, pageProps }: AppProps) {

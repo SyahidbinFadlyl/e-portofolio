@@ -9,6 +9,8 @@ export default function About() {
       pt={{ sm: "1rem" }}
       color={"#94A3B8"}
       mb={{ xs: "4rem", sm: "9rem" }}
+      id="about"
+      sx={{ scrollMarginTop: "64px" }}
     >
       <Typography>
         I am an inquisitive person, minimalist, committed, and reliable in many

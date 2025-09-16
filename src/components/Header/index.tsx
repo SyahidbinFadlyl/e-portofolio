@@ -1,5 +1,6 @@
 import { Box, IconButton, Stack, Typography } from "@mui/material";
 import { LinkedIn, GitHub } from "@mui/icons-material";
+import Navbar from "./Navbar";
 
 export default function Header() {
   return (
@@ -37,6 +38,7 @@ export default function Header() {
         <Typography sx={{ mt: "1rem", fontSize: "1rem" }} color={"#94A3B8"}>
           I build custom web applications
         </Typography>
+        <Navbar />
       </Box>
 
       <Box

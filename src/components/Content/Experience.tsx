@@ -6,7 +6,7 @@ import list_experience from "@/static/experience";
 export default function Experience() {
   const experiences: Experience[] = list_experience;
   return (
-    <Box>
+    <Box id="experience" sx={{ scrollMarginTop: "64px" }}>
       {/* <Typography sx={{ fontWeight: 700, mb: 4 }}>Experience</Typography> */}
       <Box display={"flex"} flexDirection={"column"} gap={"2rem"} pb={"2rem"}>
         {experiences.map((exp, idx) => (
