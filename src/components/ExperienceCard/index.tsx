@@ -25,14 +25,13 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
         gap: "1rem",
         transition:
           "transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease",
-        // shadow awal ringan
-        boxShadow: "0px 2px 4px rgba(0,0,0,0.1)",
+        borderRadius: "0.5rem",
         "&:hover": {
           transform: "translateY(-4px) scale(1.02)",
-          boxShadow: "0px 8px 16px rgba(0,0,0,0.2)",
+          boxShadow: "0px 0px 20px rgba(255,255,255,0.1)",
           backgroundColor: "rgba(15, 23, 42, 5)",
           cursor: "pointer",
-          borderRadius: "1rem",
+          borderRadius: "0.5rem",
           color: "rgba(94, 234, 212, 1) !important",
         },
       }}
