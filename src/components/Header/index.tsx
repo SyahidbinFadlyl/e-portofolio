@@ -1,7 +1,7 @@
 import { Box, IconButton, Stack, Typography } from "@mui/material";
 import { LinkedIn, GitHub } from "@mui/icons-material";
 
-export default function LeftSide() {
+export default function Header() {
   return (
     <Box
       sx={{

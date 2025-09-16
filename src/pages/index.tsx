@@ -1,4 +1,4 @@
-import LeftSide from "@/components/right_side";
+import Header from "@/components/Header";
 import { Box, Container } from "@mui/material";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       minHeight={"100vh"}
     >
       <Container sx={{ px: { xs: "1.5rem" } }}>
-        <LeftSide />
+        <Header />
       </Container>
     </Box>
   );
