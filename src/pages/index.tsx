@@ -1,4 +1,6 @@
 import Header from "@/components/Header";
+import Content from "@/components/Content";
+
 import { Box, Container } from "@mui/material";
 
 export default function Home() {
@@ -11,7 +13,15 @@ export default function Home() {
       minHeight={"100vh"}
     >
       <Container sx={{ px: { xs: "1.5rem" } }}>
-        <Header />
+        <Box
+          display={"flex"}
+          flexDirection={{ sm: "row", xs: "column" }}
+          justifyContent={"space-between"}
+          gap={"1rem"}
+        >
+          <Header />
+          <Content />
+        </Box>
       </Container>
     </Box>
   );
