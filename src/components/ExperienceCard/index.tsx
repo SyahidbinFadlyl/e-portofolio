@@ -19,9 +19,22 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
   return (
     <Box
       sx={{
+        p: "1rem",
         display: "flex",
         flexDirection: { xs: "column", sm: "row" },
         gap: "1rem",
+        transition:
+          "transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease",
+        // shadow awal ringan
+        boxShadow: "0px 2px 4px rgba(0,0,0,0.1)",
+        "&:hover": {
+          transform: "translateY(-4px) scale(1.02)",
+          boxShadow: "0px 8px 16px rgba(0,0,0,0.2)",
+          backgroundColor: "rgba(15, 23, 42, 5)",
+          cursor: "pointer",
+          borderRadius: "1rem",
+          color: "rgba(94, 234, 212, 1) !important",
+        },
       }}
     >
       <Box flex={{ sm: 1 }}>
@@ -39,11 +52,13 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
 
       <Box flex={{ sm: 3 }}>
         {/* Posisi & Perusahaan */}
-        <Typography sx={{ fontWeight: 700 }}>
+        <Typography
+          sx={{
+            fontWeight: 700,
+          }}
+        >
           {experience.title},{"  "}
-          <span style={{ fontWeight: 400, color: theme.palette.text.primary }}>
-            {experience.company}
-          </span>
+          <span style={{ fontWeight: 400 }}>{experience.company}</span>
         </Typography>
 
         {/* Deskripsi */}
