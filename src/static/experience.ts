@@ -2,7 +2,7 @@ import { Experience } from "@/components/ExperienceCard"
 
 const list_experience: Experience[] = [
     {
-        year: "2024 — Present",
+        year: "Okt 2024 — Present",
         title: "Full Stack Developer",
         company: "Amani",
         description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, officia
@@ -12,7 +12,7 @@ const list_experience: Experience[] = [
         skills: ["JavaScript", "TypeScript", "React", "NextJs", "Node.js"],
     },
     {
-        year: "2022 — 2024",
+        year: "Okt 2022 — Okt 2024",
         title: "Full Stack Developer",
         company: "Happy Homes",
         description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, officia

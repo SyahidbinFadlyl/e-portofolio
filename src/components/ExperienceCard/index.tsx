@@ -49,7 +49,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
         </Typography>
       </Box>
 
-      <Box flex={{ sm: 3 }}>
+      <Box flex={{ sm: 2.5 }}>
         {/* Posisi & Perusahaan */}
         <Typography
           sx={{
