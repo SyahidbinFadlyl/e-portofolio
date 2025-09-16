@@ -33,7 +33,7 @@ export default function Experience() {
   return (
     <Box>
       {/* <Typography sx={{ fontWeight: 700, mb: 4 }}>Experience</Typography> */}
-      <Box>
+      <Box display={"flex"} flexDirection={"column"} gap={"2rem"}>
         {experiences.map((exp, idx) => (
           <ExperienceCard key={idx} experience={exp} />
         ))}

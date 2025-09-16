@@ -39,12 +39,10 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
       <Box flex={{ sm: 2 }}>
         {/* Posisi & Perusahaan */}
         <Typography sx={{ fontWeight: 700 }}>
-          {experience.title},{" "}
-          <Typography
-            sx={{ fontWeight: 400, color: theme.palette.text.primary }}
-          >
+          {experience.title},{"  "}
+          <span style={{ fontWeight: 400, color: theme.palette.text.primary }}>
             {experience.company}
-          </Typography>
+          </span>
         </Typography>
 
         {/* Deskripsi */}
@@ -62,7 +60,8 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
               variant="outlined"
               sx={{
                 borderColor: theme.palette.divider,
-                color: theme.palette.text.secondary,
+                color: "rgba(94, 234, 212, 1)",
+                bgcolor: "rgba(45, 212, 191, .1)",
               }}
             />
           ))}
