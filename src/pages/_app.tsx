@@ -5,13 +5,17 @@ const theme = createTheme({
   palette: {
     mode: "light",
     primary: {
-      main: "#1976d2",
+      main: "#e2e8f0",
     },
     secondary: {
-      main: "#ff4081",
+      main: "#94A3B8",
     },
     background: {
       default: "rgba(15, 23, 42, 1)",
+    },
+    text: {
+      primary: "#e2e8f0",
+      secondary: "#94A3B8",
     },
   },
   typography: {
