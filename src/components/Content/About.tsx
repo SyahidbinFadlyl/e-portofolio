@@ -12,9 +12,21 @@ export default function About() {
     >
       <Typography>
         I am an inquisitive person, minimalist, committed, and reliable in many
-        ways. I participated in Hacktiv8's Full Stack Javascript Immersive
-        bootcamp, which allowed me to become experienced with Javascript and
-        currently popular technology stacks.
+        ways. I participated in
+        <span
+          onClick={() => {
+            window?.open("https://www.hacktiv8.com/");
+          }}
+          style={{
+            color: "#e2e8f0",
+            fontWeight: 500,
+            cursor: "pointer",
+          }}
+        >
+          {` Hacktiv8's `}
+        </span>
+        Full Stack Javascript Immersive bootcamp, which allowed me to become
+        experienced with Javascript and currently popular technology stacks.
       </Typography>
       <Typography>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, officia
