@@ -28,7 +28,6 @@ export default function Experience() {
         "Node.js",
       ],
     },
-    // tambahkan pengalaman lain sesuai data kamu
   ];
   return (
     <Box>
