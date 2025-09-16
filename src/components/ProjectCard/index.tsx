@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography, Chip, useTheme } from "@mui/material";
+import Image from "next/image";
 
 export type Project = {
   image: any;
@@ -33,7 +34,15 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         },
       }}
     >
-      <Box flex={{ sm: 1 }}>image</Box>
+      <Box flex={{ sm: 1 }} mt={1}>
+        <Image
+          src={project.image}
+          alt="image"
+          width={140}
+          height={80}
+          priority
+        />
+      </Box>
 
       <Box flex={{ sm: 2.5 }}>
         {/* Posisi & Perusahaan */}
@@ -42,7 +51,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             fontWeight: 700,
           }}
         >
-          {project.title},{"  "}
+          {project.title}
         </Typography>
 
         {/* Deskripsi */}
