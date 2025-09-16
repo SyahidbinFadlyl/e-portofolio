@@ -6,18 +6,18 @@ export default function Experience() {
   const experiences: Experience[] = [
     {
       year: "2024 — Present",
-      title: "Senior Frontend Engineer, Accessibility",
-      company: "Klaviyo",
+      title: "Full Stack Developer",
+      company: "Amani",
       description:
-        "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-      skills: ["JavaScript", "TypeScript", "React", "Storybook"],
+        "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      skills: ["JavaScript", "TypeScript", "React", "NextJs", "Node.js"],
     },
     {
-      year: "2018 — 2024",
-      title: "Lead Engineer",
-      company: "Upstatement",
+      year: "2022 — 2024",
+      title: "Full Stack Developer",
+      company: "Happy Homes",
       description:
-        "Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, etc. Provide leadership within engineering department through close collaboration, knowledge shares, and internal tools development.",
+        "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
       skills: [
         "JavaScript",
         "TypeScript",
@@ -25,10 +25,7 @@ export default function Experience() {
         "React",
         "Next.js",
         "React Native",
-        "WordPress",
-        "Contentful",
         "Node.js",
-        "PHP",
       ],
     },
     // tambahkan pengalaman lain sesuai data kamu
