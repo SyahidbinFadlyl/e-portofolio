@@ -14,7 +14,7 @@ export default function About() {
     >
       <Typography>
         I am an inquisitive person, minimalist, committed, and reliable in many
-        ways. I participated in
+        ways. I participated in{" "}
         <span
           onClick={() => {
             window?.open("https://www.hacktiv8.com/");
@@ -23,10 +23,11 @@ export default function About() {
             color: "#e2e8f0",
             fontWeight: 500,
             cursor: "pointer",
+            textDecoration: "underline",
           }}
         >
-          {` Hacktiv8's `}
-        </span>
+          {`Hacktiv8's`}
+        </span>{" "}
         Full Stack Javascript Immersive bootcamp, which allowed me to become
         experienced with Javascript and currently popular technology stacks.
       </Typography>
