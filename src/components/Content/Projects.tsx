@@ -5,7 +5,13 @@ import ProjectCard, { Project } from "../ProjectCard";
 export default function Projects() {
   const projects: Project[] = project_list;
   return (
-    <Box id="projects" sx={{ scrollMarginTop: "64px" }}>
+    <Box
+      id="projects"
+      sx={{
+        scrollMarginTop: "24px",
+        minHeight: "80vh",
+      }}
+    >
       <Box display={"flex"} flexDirection={"column"} gap={"2rem"} pb={"2rem"}>
         {projects.map((exp, idx) => (
           <ProjectCard key={idx} project={exp} />
