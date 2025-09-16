@@ -17,6 +17,7 @@ export default function LeftSide() {
           fontSize: { sm: "1.25rem", xs: "1.125rem" },
           fontWeight: 500,
           lineHeight: { sm: "1.75rem" },
+          mt: "0.75rem",
         }}
       >
         Software Engineer
