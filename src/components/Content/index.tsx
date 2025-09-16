@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import About from "./About";
+import Experience from "./Experience";
 
 export default function Content() {
   return (
@@ -10,6 +11,7 @@ export default function Content() {
       }}
     >
       <About />
+      <Experience />
     </Box>
   );
 }
