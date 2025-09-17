@@ -10,6 +10,7 @@ export default function Projects() {
       sx={{
         scrollMarginTop: "24px",
         minHeight: "80vh",
+        mb: { xs: "64px", md: "96px", lg: "144px" },
       }}
     >
       <Box display={"flex"} flexDirection={"column"} gap={"2rem"} pb={"2rem"}>
