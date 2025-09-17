@@ -66,7 +66,7 @@ export default function Navbar() {
               position: "relative",
               fontSize: 14,
               fontWeight: 500,
-              color: "text.secondary",
+              color: active === s.id ? "rgb(94 234 212)" : "text.secondary",
               cursor: "pointer",
               transition: "color 0.3s ease",
               "&::after": {
@@ -74,7 +74,7 @@ export default function Navbar() {
                 position: "absolute",
                 bottom: -4,
                 left: 0,
-                width: active === s.id ? "100%" : 0,
+                width: active === s.id ? "150%" : 0,
                 height: "2px",
                 bgcolor: "rgb(94 234 212)",
                 transition: "width 0.3s ease",
@@ -82,7 +82,7 @@ export default function Navbar() {
               "&:hover": {
                 color: "rgb(94 234 212)",
                 "&::after": {
-                  width: "100%",
+                  width: active === s.id ? "150%" : "100%",
                 },
               },
             }}
