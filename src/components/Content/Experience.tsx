@@ -1,15 +1,17 @@
 import React from "react";
-import { Box, Typography, IconButton } from "@mui/material";
-import ExperienceCard, { Experience } from "../ExperienceCard";
+import { Box, IconButton } from "@mui/material";
+import { Experience } from "@/types";
 import list_experience from "@/static/experience";
+import ExperienceCard from "../ExperienceCard";
 
-export default function Experience() {
+export default function ExperienceBox() {
   const experiences: Experience[] = list_experience;
   return (
     <Box
       id="experience"
       sx={{ scrollMarginTop: "64px" }}
       mb={{ xs: "6rem", sm: "9rem" }}
+      minHeight={{ xs: "50vh" }}
     >
       {/* <Typography sx={{ fontWeight: 700, mb: 4 }}>Experience</Typography> */}
       <Box display={"flex"} flexDirection={"column"} gap={"2rem"} pb={"2rem"}>

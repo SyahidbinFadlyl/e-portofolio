@@ -1,13 +1,6 @@
 import React from "react";
 import { Box, Typography, Chip, useTheme } from "@mui/material";
-
-export type Experience = {
-  year: string;
-  title: string;
-  company: string;
-  description: string;
-  skills: string[];
-};
+import { Experience } from "@/types";
 
 interface ExperienceCardProps {
   experience: Experience;
