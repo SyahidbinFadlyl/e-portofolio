@@ -11,7 +11,7 @@ export default function ExperienceBox() {
       id="experience"
       sx={{ scrollMarginTop: "64px" }}
       mb={{ xs: "6rem", sm: "9rem" }}
-      minHeight={{ xs: "50vh" }}
+      minHeight={{ xs: "80vh" }}
     >
       {/* <Typography sx={{ fontWeight: 700, mb: 4 }}>Experience</Typography> */}
       <Box display={"flex"} flexDirection={"column"} gap={"2rem"} pb={"2rem"}>

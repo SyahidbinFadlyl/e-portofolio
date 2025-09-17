@@ -11,6 +11,7 @@ export default function About() {
       mb={{ xs: "4rem", sm: "9rem" }}
       id="about"
       sx={{ scrollMarginTop: "64px" }}
+      minHeight={{ xs: "40vh" }}
     >
       <Typography>
         I am an inquisitive person, minimalist, committed, and reliable in many

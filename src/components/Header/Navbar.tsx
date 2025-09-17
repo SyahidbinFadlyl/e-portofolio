@@ -11,7 +11,7 @@ const sections = [
 ];
 
 export default function Navbar() {
-  const [active, setActive] = useState<string>("");
+  const [active, setActive] = useState<string>("about");
 
   useEffect(() => {
     const observers: IntersectionObserver[] = [];
@@ -26,7 +26,7 @@ export default function Navbar() {
             setActive(section.id);
           }
         },
-        { rootMargin: "-10% 0px -10% 0px", threshold: 0 }
+        { threshold: 0.5 }
       );
       console.log(observer, "observer");
       observer.observe(el);

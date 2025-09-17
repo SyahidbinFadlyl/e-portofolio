@@ -1,4 +1,4 @@
-import { Experience } from "@/components/ExperienceCard"
+import { Experience } from "@/types";
 
 const list_experience: Experience[] = [
     {
@@ -8,7 +8,13 @@ const list_experience: Experience[] = [
         description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, officia
         deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
         magnam. Obcaecati fuga et soluta unde quas aliquid incidunt rerum
-        perferendis perspiciatis!`,
+        perferendis perspiciatis!
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, officia
+        deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
+        magnam. Obcaecati fuga et soluta unde quas aliquid incidunt rerum
+        perferendis perspiciatis!
+        `,
         skills: ["JavaScript", "TypeScript", "React", "NextJs", "Node.js"],
     },
     {
