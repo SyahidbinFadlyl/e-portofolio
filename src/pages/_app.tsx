@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
+import { ThemeProvider, CssBaseline } from "@mui/material";
 import { Inter } from "next/font/google";
 
 import theme from "../theme/index"
