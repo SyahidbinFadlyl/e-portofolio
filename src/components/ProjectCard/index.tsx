@@ -17,7 +17,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Box
       sx={{
-        p: "1rem",
+        py: "1rem",
+        px: "1.5rem",
         display: "flex",
         flexDirection: { xs: "column", sm: "row" },
         gap: "1rem",
@@ -31,6 +32,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           cursor: "pointer",
           borderRadius: "0.5rem",
           color: "rgba(94, 234, 212, 1) !important",
+          py: "1rem",
+          px: "1.5rem",
         },
       }}
     >
