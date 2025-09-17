@@ -7,8 +7,8 @@ export default function Header() {
     <Box
       sx={{
         py: { sm: "6rem", xs: "3rem" },
-        height: { sm: "100vh" },
-        "@media (min-width:1200px)": {
+        height: { md: "100vh" },
+        "@media (min-width:900px)": {
           position: "sticky",
           top: 0,
           display: "flex",
@@ -17,6 +17,9 @@ export default function Header() {
           flexDirection: "column",
           justifyContent: "space-between",
         },
+        "@media (max-width:899px)": {
+          pb: "3rem"
+        }
       }}
     >
       <Box>

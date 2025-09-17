@@ -15,7 +15,7 @@ export default function Home() {
       <Container sx={{ px: { xs: "1.5rem" } }}>
         <Box
           display={"flex"}
-          flexDirection={{ sm: "row", xs: "column" }}
+          flexDirection={{ md: "row", xs: "column" }}
           justifyContent={"space-between"}
           gap={"1rem"}
         >

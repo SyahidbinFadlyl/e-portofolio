@@ -26,7 +26,7 @@ export default function Footer() {
             >
                 brittanychiang.com
             </span>
-            {` ( I don't know how to design web yet). `}
+            {/* {` ( I don't know how to design web yet). `} */}
             <br />
             {'Coded in '}
             <span

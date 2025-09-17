@@ -46,7 +46,7 @@ export default function Navbar() {
         top: { xs: 0, lg: 0 },
         left: 0,
         zIndex: 50,
-        display: { xs: "none", sm: "flex", lg: "flex" },
+        display: { xs: "none", md: "flex", lg: "flex" },
         flexDirection: { xs: "row", lg: "column" },
         justifyContent: { xs: "center", lg: "flex-start" },
         alignItems: { xs: "center", lg: "flex-start" },
