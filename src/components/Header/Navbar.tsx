@@ -18,7 +18,6 @@ export default function Navbar() {
 
     sections.forEach((section) => {
       const el = document.getElementById(section.id);
-      console.log(el, "el");
       if (!el) return;
 
       const observer = new IntersectionObserver(
@@ -60,7 +59,7 @@ export default function Navbar() {
       }}
     >
       {sections.map((s) => (
-        <Link key={s.id} href={`#${s.id}`} scroll={false}>
+        <Link key={s.id} href={`#${s.id}`} scroll={false} style={{ textDecoration: 'none' }}>
           <Typography
             component="span"
             sx={{
@@ -75,7 +74,7 @@ export default function Navbar() {
                 position: "absolute",
                 bottom: -4,
                 left: 0,
-                // width: active === s.id ? "100%" : 0,
+                width: active === s.id ? "100%" : 0,
                 height: "2px",
                 bgcolor: "rgb(94 234 212)",
                 transition: "width 0.3s ease",
@@ -87,6 +86,7 @@ export default function Navbar() {
                 },
               },
             }}
+            onClick={() => { setActive(s.id) }}
           >
             {s.label}
           </Typography>
