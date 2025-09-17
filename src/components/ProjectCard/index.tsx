@@ -6,6 +6,7 @@ export type Project = {
   image: any;
   title: string;
   description: string;
+  tools?: string[];
 };
 
 interface ProjectCardProps {
@@ -61,6 +62,24 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <Typography sx={{ mt: 1.5, color: theme.palette.text.secondary }}>
           {project.description}
         </Typography>
+
+        {!!project?.tools?.length &&
+          <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, mt: 2 }}>
+            {project.tools.map((tool, i) => (
+              <Chip
+                key={i}
+                label={tool}
+                size="small"
+                variant="outlined"
+                sx={{
+                  borderColor: theme.palette.divider,
+                  color: "rgba(94, 234, 212, 1)",
+                  bgcolor: "rgba(45, 212, 191, .1)",
+                }}
+              />
+            ))}
+          </Box>
+        }
       </Box>
     </Box>
   );
