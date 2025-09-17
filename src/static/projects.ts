@@ -12,6 +12,7 @@ const project_list: Project[] = [
         deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
         magnam. Obcaecati fuga et soluta unde quas aliquid incidunt rerum
         perferendis perspiciatis!`,
+        tools: ["JavaScript", "TypeScript", "React", "NextJs", "Node.js"],
     },
     {
         image: task_manager,
@@ -20,6 +21,7 @@ const project_list: Project[] = [
         deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
         magnam. Obcaecati fuga et soluta unde quas aliquid incidunt rerum
         perferendis perspiciatis!`,
+        tools: ["JavaScript", "TypeScript", "React", "NextJs", "Node.js", "Express"],
     },
     {
         image: crm,
@@ -28,6 +30,7 @@ const project_list: Project[] = [
         deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
         magnam. Obcaecati fuga et soluta unde quas aliquid incidunt rerum
         perferendis perspiciatis!`,
+        tools: ["JavaScript", "React", "Node.js", "Express"],
     },
     {
         image: bprs,
@@ -36,6 +39,7 @@ const project_list: Project[] = [
         deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
         magnam. Obcaecati fuga et soluta unde quas aliquid incidunt rerum
         perferendis perspiciatis!`,
+        tools: ["JavaScript", "TypeScript", "React", "NextJs", "Node.js", "Express"],
     },
 ]
 
