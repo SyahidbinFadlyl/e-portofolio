@@ -58,7 +58,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
 
         {/* Deskripsi */}
         <Typography sx={{ mt: 1.5, color: theme.palette.text.secondary }}>
-          {experience.description}
+          {experience.description?.split("\n").map((e: string) => (<>{e}<br /></>))}
         </Typography>
 
         {/* Skills */}
