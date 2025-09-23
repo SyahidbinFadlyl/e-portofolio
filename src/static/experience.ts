@@ -3,7 +3,7 @@ import { Experience } from "@/types";
 const list_experience: Experience[] = [
     {
         year: "Okt 2024 — Present",
-        title: "Full Stack Developer",
+        title: "Software Engineer",
         company: "Amani",
         description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, officia
         deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
