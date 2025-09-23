@@ -39,7 +39,7 @@ export default function Header() {
           Software Engineer
         </Typography>
         <Typography sx={{ mt: "1rem", fontSize: "1rem" }} color={"#94A3B8"}>
-          I build web applications
+          I build web and mobile applications
         </Typography>
         <Navbar />
       </Box>
