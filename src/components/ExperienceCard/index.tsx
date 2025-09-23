@@ -31,6 +31,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
           px: "1.5rem",
         },
       }}
+      onClick={() => { if (experience?.url) { window?.open(experience?.url, "_blank") } }}
     >
       <Box flex={{ sm: 1 }}>
         {/* Tahun */}
