@@ -14,8 +14,7 @@ export default function About() {
       minHeight={{ xs: "40vh" }}
     >
       <Typography>
-        I am an inquisitive person, minimalist, committed, and reliable in many
-        ways. I participated in{" "}
+        I am an inquisitive and minimalist person, committed and reliable in many ways. My journey into tech began when I joined{" "}
         <span
           onClick={() => {
             window?.open("https://www.hacktiv8.com/");
@@ -29,20 +28,15 @@ export default function About() {
         >
           {`Hacktiv8's`}
         </span>{" "}
-        Full Stack Javascript Immersive bootcamp, which allowed me to become
-        experienced with Javascript and currently popular technology stacks.
+        Full Stack JavaScript Immersive bootcamp, where I gained hands-on experience with JavaScript and modern technology stacks.
       </Typography>
       <Typography>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, officia
-        deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
-        magnam. Obcaecati fuga et soluta unde quas aliquid incidunt rerum
-        perferendis perspiciatis!
+        Currently, I work as a Software Engineer at Amani, specializing in building and maintaining CRM applications across both front end and back end. These platforms support property sales management, customer data processing, financial reporting, and payment tracking for both mortgage and cash transactions.
+        <br /><br />
+        I’m passionate about developing reliable systems and crafting inclusive user experiences by applying web accessibility standards and best practices in software development.
       </Typography>
       <Typography>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, officia
-        deleniti quasi perferendis expedita fugiat placeat eius. Praesentium,
-        magnam. Obcaecati fuga et soluta unde quas aliquid incidunt rerum
-        perferendis perspiciatis!
+        Outside of work, I enjoy riding my motorbike around the city, playing soul-like games, and spending quality time with family and friends.
       </Typography>
     </Box>
   );
