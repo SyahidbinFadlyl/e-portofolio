@@ -7,6 +7,7 @@ const list_experience: Experience[] = [
         company: "Amani",
         description: `Build and maintain internal CRM applications (front end & back end).\n\nCollaborate with system analysts, designers, and project managers to implement best practices in accessibility and functionality.\n\nSupport core features including property sales management, customer data processing, financial reporting, and payment tracking for mortgage and cash transactions.`,
         skills: ["JavaScript", "TypeScript", "React", "NextJs", "Node.js", "Express"],
+        url : "https://amani.co.id/",
     },
     {
         year: "Okt 2022 — Okt 2024",
@@ -21,6 +22,7 @@ const list_experience: Experience[] = [
             "Node.js",
             "Express"
         ],
+        url : "https://id.linkedin.com/company/happyhomesidn",
     },
 ];
 export default list_experience

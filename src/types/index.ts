@@ -5,4 +5,5 @@ export type Experience = {
   company: string;
   description: string | any;
   skills: string[];
+  url: string;
 };
