@@ -27,7 +27,7 @@ export default function Footer() {
                 brittanychiang.com
             </span>
             {/* {` ( I don't know how to design web yet). `} */}
-            <br />
+            {/* <br /> */}
             {'Coded in '}
             <span
                 onClick={() => {
@@ -68,8 +68,8 @@ export default function Footer() {
                 MUI
             </span>
             {','}
-            <br />
-            {'deployed with '}
+            {/* <br /> */}
+            {' deployed with '}
             <span
                 onClick={() => {
                     window?.open("https://vercel.com/");
