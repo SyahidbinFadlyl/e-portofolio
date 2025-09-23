@@ -28,7 +28,7 @@ export default function Footer() {
             </span>
             {/* {` ( I don't know how to design web yet). `} */}
             {/* <br /> */}
-            {'Coded in '}
+            {'. Coded in '}
             <span
                 onClick={() => {
                     window?.open("https://code.visualstudio.com/");
