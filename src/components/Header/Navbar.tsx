@@ -28,7 +28,6 @@ export default function Navbar() {
         },
         { threshold: 0.5 },
       );
-      console.log(observer, "observer");
       observer.observe(el);
       observers.push(observer);
     });
