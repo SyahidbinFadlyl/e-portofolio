@@ -1,9 +1,9 @@
 import React from "react";
 import { Box, Typography, Chip, useTheme } from "@mui/material";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 export type Project = {
-  image: any;
+  image: StaticImageData | string; // lebih aman daripada any
   title: string;
   description: string;
   tools?: string[];
@@ -29,19 +29,17 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         "&:hover": {
           transform: "translateY(-4px) scale(1.02)",
           boxShadow: "0px 0px 20px rgba(255,255,255,0.1)",
-          backgroundColor: "rgba(15, 23, 42, 5)",
+          backgroundColor: "rgba(15, 23, 42, 0.5)",
           cursor: "pointer",
           borderRadius: "0.5rem",
           color: "rgba(94, 234, 212, 1) !important",
-          py: "1rem",
-          px: "1.5rem",
         },
       }}
     >
       <Box flex={{ sm: 1 }} mt={1}>
         <Image
           src={project.image}
-          alt="image"
+          alt={project.title}
           width={140}
           height={80}
           priority
@@ -49,16 +47,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </Box>
 
       <Box flex={{ sm: 2.5 }}>
-        {/* Posisi & Perusahaan */}
-        <Typography
-          sx={{
-            fontWeight: 700,
-          }}
-        >
-          {project.title}
-        </Typography>
+        <Typography sx={{ fontWeight: 700 }}>{project.title}</Typography>
 
-        {/* Deskripsi */}
         <Typography sx={{ mt: 1.5, color: theme.palette.text.secondary }}>
           {project.description}
         </Typography>

@@ -2,7 +2,7 @@ export type Experience = {
   year: string;
   title: string;
   company: string;
-  description: string | any;
+  description: string;
   skills: string[];
   url: string;
 };
