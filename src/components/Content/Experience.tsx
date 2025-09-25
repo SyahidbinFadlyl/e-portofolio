@@ -19,7 +19,7 @@ export default function ExperienceBox() {
           <ExperienceCard key={idx} experience={exp} />
         ))}
       </Box>
-      <IconButton
+      {/* <IconButton
         component="a"
         href="https://github.com/SyahidbinFadlyl"
         target="_blank"
@@ -36,7 +36,7 @@ export default function ExperienceBox() {
         }}
       >
         View Full Resume
-      </IconButton>
+      </IconButton> */}
     </Box>
   );
 }
