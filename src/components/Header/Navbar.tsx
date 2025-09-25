@@ -26,7 +26,7 @@ export default function Navbar() {
             setActive(section.id);
           }
         },
-        { threshold: 0.5 }
+        { threshold: 0.5 },
       );
       console.log(observer, "observer");
       observer.observe(el);
@@ -59,7 +59,12 @@ export default function Navbar() {
       }}
     >
       {sections.map((s) => (
-        <Link key={s.id} href={`#${s.id}`} scroll={false} style={{ textDecoration: 'none' }}>
+        <Link
+          key={s.id}
+          href={`#${s.id}`}
+          scroll={false}
+          style={{ textDecoration: "none" }}
+        >
           <Typography
             component="span"
             sx={{
@@ -86,7 +91,9 @@ export default function Navbar() {
                 },
               },
             }}
-            onClick={() => { setActive(s.id) }}
+            onClick={() => {
+              setActive(s.id);
+            }}
           >
             {s.label}
           </Typography>

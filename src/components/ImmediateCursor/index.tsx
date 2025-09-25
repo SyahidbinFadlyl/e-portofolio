@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import { Box } from "@mui/material";
-import { motion, useMotionValue, useSpring, AnimatePresence } from "framer-motion";
+import {
+  motion,
+  useMotionValue,
+  useSpring,
+  AnimatePresence,
+} from "framer-motion";
 
 const CursorBrittany = () => {
   const [hovering, setHovering] = useState(false);

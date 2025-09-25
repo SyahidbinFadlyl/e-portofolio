@@ -31,7 +31,11 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
           px: "1.5rem",
         },
       }}
-      onClick={() => { if (experience?.url) { window?.open(experience?.url, "_blank") } }}
+      onClick={() => {
+        if (experience?.url) {
+          window?.open(experience?.url, "_blank");
+        }
+      }}
     >
       <Box flex={{ sm: 1 }}>
         {/* Tahun */}
@@ -59,7 +63,12 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
 
         {/* Deskripsi */}
         <Typography sx={{ mt: 1.5, color: theme.palette.text.secondary }}>
-          {experience.description?.split("\n").map((e: string) => (<>{e}<br /></>))}
+          {experience.description?.split("\n").map((e: string) => (
+            <>
+              {e}
+              <br />
+            </>
+          ))}
         </Typography>
 
         {/* Skills */}

@@ -18,8 +18,8 @@ export default function Header() {
           justifyContent: "space-between",
         },
         "@media (max-width:899px)": {
-          pb: "3rem"
-        }
+          pb: "3rem",
+        },
       }}
     >
       <Box>

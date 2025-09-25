@@ -63,7 +63,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {project.description}
         </Typography>
 
-        {!!project?.tools?.length &&
+        {!!project?.tools?.length && (
           <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, mt: 2 }}>
             {project.tools.map((tool, i) => (
               <Chip
@@ -79,7 +79,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               />
             ))}
           </Box>
-        }
+        )}
       </Box>
     </Box>
   );

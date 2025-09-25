@@ -2,7 +2,7 @@ import type { AppProps } from "next/app";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import { Inter } from "next/font/google";
 
-import theme from "../theme/index"
+import theme from "../theme/index";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,6 +19,5 @@ export default function App({ Component, pageProps }: AppProps) {
         </ThemeProvider>
       </body>
     </html>
-
   );
 }
