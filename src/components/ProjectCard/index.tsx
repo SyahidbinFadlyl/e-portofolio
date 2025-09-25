@@ -3,7 +3,7 @@ import { Box, Typography, Chip, useTheme } from "@mui/material";
 import Image, { StaticImageData } from "next/image";
 
 export type Project = {
-  image: StaticImageData | string; // lebih aman daripada any
+  image: StaticImageData | string;
   title: string;
   description: string;
   tools?: string[];
